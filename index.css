@@ -2,7 +2,7 @@
 @import url(/styles/contact.css);
 @import url(/logo.png);
 @import url(/styles/title.css);
-@import url(/styles/button.css);
+@import url(./styles/button.css);
 * {
   box-sizing: border-box;
   margin: 0;
