@@ -1,0 +1,17 @@
+.contact_us {
+  height: 52px;
+  width: 1200.0001220703125px;
+  left: 200px;
+  margin-top: 26px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img_header {
+  height: 48px;
+  width: 185px;
+  left: 200px;
+  top: 28px;
+  border-radius: 0px;
+}
