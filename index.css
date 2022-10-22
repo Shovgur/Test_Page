@@ -3,6 +3,7 @@
 @import url(./logo.png);
 @import url(./styles/title.css);
 @import url(./styles/button.css);
+@import url(./styles/burger_menu.css);
 * {
   box-sizing: border-box;
   margin: 0;
