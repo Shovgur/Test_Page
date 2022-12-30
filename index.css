@@ -1,8 +1,11 @@
+@import url(/styles/popular.css);
+
 * {
   box-sizing: border-box;
   margin: 0;
   background-color: #1e252b;
 }
+
 
 .root {
   max-width: 1224px;
@@ -88,7 +91,6 @@
   font-weight: 500;
   line-height: 70px;
   letter-spacing: 0em;
-  text-align: left;
 }
 
 .title_2 {
@@ -125,9 +127,6 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
-/* .input__search:focus{
-  opacity: 0;
-} */
 
 .input__search-image {
   background-color: rgba(40, 48, 54, 1);
@@ -138,3 +137,4 @@
   width: 190px;
   margin-top: 110px;
 }
+
