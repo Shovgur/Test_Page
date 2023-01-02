@@ -1,10 +1,10 @@
-@import url(/styles/popular_tools.css);
-@import url(styles/popular_items.css);
-@import url(styles/brand.css);
-@import url(styles/newcommer.css);
-@import url(styles/testimonial.css);
-@import url(styles/join.css);
-@import url(/styles/footer.css);
+@import url(./styles/popular_tools.css);
+@import url(./styles/popular_items.css);
+@import url(./styles/brand.css);
+@import url(./styles/newcommer.css);
+@import url(./styles/testimonial.css);
+@import url(./styles/join.css);
+@import url(./styles/footer.css);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,7 +24,7 @@ body {
 
 .hero {
   height: 700px;
-  background: url(/img/Illustration.svg) no-repeat;
+  background: url(./img/Illustration.svg) no-repeat;
   background-position: right bottom;
   background-size: 590px;
 }
