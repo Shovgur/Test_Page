@@ -1,5 +1,7 @@
-@import url(/styles/popular.css);
-
+@import url(/styles/popular_tools.css);
+@import url(styles/popular_items.css);
+@import url(styles/brand.css);
+@import url(styles/newcommer.css);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -80,6 +82,7 @@
 .search__input-header {
   display: flex;
   flex-direction: column;
+
 }
 
 .title_1 {
@@ -135,6 +138,5 @@
 .social {
   height: 58px;
   width: 190px;
-  margin-top: 110px;
 }
 
