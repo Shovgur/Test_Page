@@ -1,0 +1,120 @@
+.newcommer {
+  width: 1224px;
+  height: 638px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.newcommer__tools {
+  width: 427px;
+  height: 300px;
+}
+
+.newcommer__cards {
+  width: 600px;
+  height: 638px;
+  margin-left: 197px;
+gap: 50px
+;
+}
+
+.newcommer__tools__title-1 {
+  width: 401px;
+  height: 62px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 50px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.newcommer__tools__title-2 {
+  width: 427px;
+  height: 90px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.explore_more {
+  width: 198px;
+  height: 58px;
+  margin-top: 60px;
+  background-color: #ff6e30;
+  border-radius: 8px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+}
+
+.newcommer__cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 600px;
+  height: 638px;
+}
+
+.newcommer__cards__group-1__container {
+  width: 288px;
+  height: 284px;
+}
+
+.newcommer__cards__group-1 {
+padding: 20px;
+}
+
+.newcommer__cards__group-1__logo{
+    width: 195px;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newcommer__cards__group-1__titles{
+    width: 101px;
+    height: 66px;
+}
+
+.newcommer__cards__group-1__title-2{
+height: 60px;
+font-size: 16px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.58);
+}
+
+.newcommer__group__card-1__footer{
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+.newcommer__item__card-hover{
+  background: rgba(40, 48, 54, 0.6);
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  width: 288px;
+  height: 284px;
+}
+
+.newcommer__item__card-hover::before{
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  background: rgba(255, 72, 66, 0.4);
+  filter: blur(50px);
+  right: 0;
+  top: 0;
+  width: 65px;
+  height: 65px;
+  transform: translate(50%,-50%);
+}

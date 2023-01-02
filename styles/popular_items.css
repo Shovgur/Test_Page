@@ -52,7 +52,6 @@
 }
 
 .popular__group__card-1__title {
-  width: 326px;
   height: 60px;
   margin-top: 30px;
 }
@@ -65,10 +64,10 @@
   letter-spacing: 0em;
   text-align: left;
   color: rgba(255, 255, 255, 0.58);
+  margin-bottom: 4px;
 }
 
 .popular__group__card-1__footer {
-  width: 326px;
   height: 42px;
   margin-top: 30px;
   display: flex;
@@ -81,6 +80,13 @@
   height: 42px;
   display: flex;
   flex-direction: row;
+}
+
+.popular__group__card-1__footer-icons-hover{
+  display: flex;
+  flex-direction: row;
+  gap: 20px
+  ;
 }
 
 .popular__group__card-3__logo {
@@ -118,4 +124,38 @@
   letter-spacing: 0em;
   padding: 10px;
   margin-top: 133px;
+  background: none;
+}
+
+.popular__item__card-hover {
+  background: rgba(40, 48, 54, 0.6);
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.popular__item__card-hover::before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  background: rgba(255, 72, 66, 0.4);
+  filter: blur(50px);
+  right: 0;
+  top: 0;
+  width: 65px;
+  height: 65px;
+  transform: translate(50%,-50%);
+}
+
+.button_visit {
+  width: 106px;
+  height: 42px;
+  background: #ff6e30;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
 }
